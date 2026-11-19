@@ -1,0 +1,4 @@
+line_id,provider,request_ref,period,currency,amount,status
+i1,p-a,r-1,2026-11,CNY,0.01,posted
+i2,p-b,r-1,2026-11,CNY,0.02,posted
+i3,p-a,r-2,2026-11,CNY,0.01,pending

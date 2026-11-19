@@ -1,0 +1,5 @@
+event_id,request_id,attempt_id,team,model,event,occurred_utc,tokens
+c1,r-1,a-1,ops,m-a,started,2026-11-01T10:00:00Z,0
+c2,r-1,a-1,ops,m-a,failed,2026-11-01T10:00:02Z,100
+c3,r-1,a-2,ops,m-b,completed,2026-11-01T10:00:05Z,160
+c4,r-2,a-1,care,m-a,completed,2026-11-02T09:00:00Z,80

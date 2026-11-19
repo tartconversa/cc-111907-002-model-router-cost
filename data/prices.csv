@@ -1,0 +1,4 @@
+model,version,currency,effective_utc,input_per_1k,output_per_1k
+m-a,v1,CNY,2026-10-01T00:00:00Z,0.02,0.08
+m-a,v2,CNY,2026-11-01T00:00:00Z,0.03,0.09
+m-b,v1,CNY,2026-10-01T00:00:00Z,0.05,0.12
