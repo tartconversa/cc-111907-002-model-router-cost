@@ -1,0 +1,14 @@
+[
+  {
+    "team": "care",
+    "period": "2026-11",
+    "budget_fen": 50000,
+    "carry": false
+  },
+  {
+    "team": "ops",
+    "period": "2026-11",
+    "budget_fen": 80000,
+    "carry": false
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "P1",
+    "provider": "A",
+    "model": "small",
+    "start": "2026-10-20T00:00:00Z",
+    "currency": "CNY",
+    "per_1k_input": "0.02",
+    "per_1k_output": "0.08"
+  },
+  {
+    "id": "P2",
+    "provider": "A",
+    "model": "small",
+    "start": "2026-11-07T00:00:00Z",
+    "currency": "CNY",
+    "per_1k_input": "0.03",
+    "per_1k_output": "0.09"
+  },
+  {
+    "id": "P3",
+    "provider": "B",
+    "model": "large",
+    "start": "2026-10-20T00:00:00Z",
+    "currency": "USD",
+    "per_1k_input": "0.01",
+    "per_1k_output": "0.03"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "teams.json": "0e45a99caacd898cae1545d1706cf485e7000a1e8369fd0604b391982c2d837c",
+    "prices.json": "cbc9779c0dab21198b933c22305944dbea4361d8b202e09fa5dcef765793ded7",
+    "fx.json": "b339babb44146bf57dd58f8b725b6956483f2f3e2f6243227bee4da90d52df20",
+    "calls.json": "a136df587f34a4276f8108b3e73993cc58f84bd2f3ba7b8969457e36359000cb",
+    "invoices.json": "9cec2e41588746b1ebfb1fde96c9d1041d683ca29de3e57bea009e50390b61ee",
+    "requests.json": "2b9af26f19403e947e77e24b66f2c0b0278b9b26c53241f7bd7b4a95e8cd6dd0",
+    "capabilities.json": "f79117173a3c21de143310573b778d56e6ed488c742edc019a3e4e6d8d99c13b",
+    "schema.json": "3f635f7f74ca7fad4d685362bf662d8502cf20c524a22d4b61f5f7007839d3c3"
+  },
+  "synthetic": true
+}

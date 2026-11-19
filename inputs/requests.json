@@ -1,0 +1,32 @@
+[
+  {
+    "id": "B1",
+    "team": "care",
+    "batch": "weekly-report",
+    "units": 300,
+    "required_capability": "summarize",
+    "deferrable": true,
+    "period": "2026-11",
+    "expires": "2026-12-01T00:00:00Z"
+  },
+  {
+    "id": "B2",
+    "team": "ops",
+    "batch": "compliance",
+    "units": 500,
+    "required_capability": "reasoning",
+    "deferrable": false,
+    "period": "2026-11",
+    "expires": "2026-12-01T00:00:00Z"
+  },
+  {
+    "id": "B3",
+    "team": "care",
+    "batch": "support",
+    "units": 900,
+    "required_capability": "summarize",
+    "deferrable": false,
+    "period": "2026-11",
+    "expires": "2026-12-01T00:00:00Z"
+  }
+]

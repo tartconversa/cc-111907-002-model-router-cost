@@ -1,0 +1,62 @@
+[
+  {
+    "id": "I1",
+    "revision": 1,
+    "provider": "A",
+    "period": "2026-11",
+    "request": "R1",
+    "attempt_id": "A1",
+    "currency": "CNY",
+    "amount": "0.03",
+    "kind": "usage",
+    "confirmed": true
+  },
+  {
+    "id": "I1",
+    "revision": 2,
+    "provider": "A",
+    "period": "2026-11",
+    "request": "R1",
+    "attempt_id": "A1",
+    "currency": "CNY",
+    "amount": "0.02",
+    "kind": "usage",
+    "confirmed": true
+  },
+  {
+    "id": "I2",
+    "revision": 1,
+    "provider": "B",
+    "period": "2026-11",
+    "request": "R0",
+    "attempt_id": "A1",
+    "currency": "USD",
+    "amount": "0.02",
+    "kind": "usage",
+    "confirmed": true
+  },
+  {
+    "id": "I3",
+    "revision": 1,
+    "provider": "A",
+    "period": "2026-11",
+    "request": null,
+    "attempt_id": null,
+    "currency": "CNY",
+    "amount": "100.00",
+    "kind": "shared",
+    "confirmed": true
+  },
+  {
+    "id": "I4",
+    "revision": 1,
+    "provider": "B",
+    "period": "2026-11",
+    "request": "R0",
+    "attempt_id": "A1",
+    "currency": "USD",
+    "amount": "-0.01",
+    "kind": "refund",
+    "confirmed": false
+  }
+]

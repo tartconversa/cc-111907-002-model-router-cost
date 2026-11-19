@@ -1,0 +1,19 @@
+[
+  {
+    "model": "small",
+    "skills": [
+      "summarize"
+    ],
+    "input_per_unit": 800,
+    "output_per_unit": 150
+  },
+  {
+    "model": "large",
+    "skills": [
+      "summarize",
+      "reasoning"
+    ],
+    "input_per_unit": 1000,
+    "output_per_unit": 220
+  }
+]

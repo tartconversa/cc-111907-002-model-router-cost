@@ -1,0 +1,84 @@
+{
+  "teams": {
+    "definition": "每个账期预算以人民币分记，估计与确认不得混同。",
+    "columns": {
+      "team": "团队",
+      "period": "预算月份",
+      "budget_fen": "预算分",
+      "carry": "余额可结转否"
+    }
+  },
+  "prices": {
+    "definition": "供应商有效价目。",
+    "columns": {
+      "id": "价目版本",
+      "provider": "供应商",
+      "model": "模型",
+      "start": "生效时刻",
+      "currency": "原币种",
+      "per_1k_input": "每千输入价格",
+      "per_1k_output": "每千输出价格"
+    }
+  },
+  "fx": {
+    "definition": "结算规定的账期汇率，不使用实时汇率。",
+    "columns": {
+      "period": "月份",
+      "currency": "币种",
+      "cny_rate": "原币1单位折合人民币"
+    }
+  },
+  "calls": {
+    "definition": "尝试可以收费，即使业务失败。供应商账单使用 attempt_id 引用，业务请求用 request。",
+    "columns": {
+      "id": "事件标识",
+      "request": "请求",
+      "attempt_id": "请求内尝试标识",
+      "team": "团队",
+      "provider": "供应商",
+      "model": "模型",
+      "occurred": "调用时刻",
+      "received": "已知时刻",
+      "input_tokens": "输入量",
+      "output_tokens": "输出量",
+      "status": "success/failed"
+    }
+  },
+  "invoices": {
+    "definition": "同一来源行的修订版本替代旧值；金额为原币单位十进制字符串，负值表示退款。",
+    "columns": {
+      "id": "行标识",
+      "revision": "行版本",
+      "provider": "供应商",
+      "period": "账期",
+      "request": "请求，可空",
+      "attempt_id": "尝试，可空",
+      "currency": "币种",
+      "amount": "原币金额",
+      "kind": "usage/shared/refund",
+      "confirmed": "供应商最终确认否"
+    }
+  },
+  "requests": {
+    "definition": "用于后续额度受理的业务请求，不是模型调用操作。",
+    "columns": {
+      "id": "额度请求",
+      "team": "团队",
+      "batch": "业务批次",
+      "units": "批量",
+      "required_capability": "所需能力",
+      "deferrable": "可延期",
+      "period": "预算月份",
+      "expires": "申请到期"
+    }
+  },
+  "capabilities": {
+    "definition": "模型支持能力以及单业务量的预估输入输出。",
+    "columns": {
+      "model": "模型",
+      "skills": "能力集合",
+      "input_per_unit": "单位输入量",
+      "output_per_unit": "单位输出量"
+    }
+  }
+}
