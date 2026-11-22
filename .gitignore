@@ -2,3 +2,7 @@ __pycache__/
 *.py[cod]
 .venv/
 outputs/
+workdir/
+demo/work-walkthrough/
+demo/walkthrough-extra/
+demo/walkthrough-pending/

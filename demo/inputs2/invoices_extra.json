@@ -1,0 +1,14 @@
+[
+  {
+    "id": "I1",
+    "revision": 2,
+    "provider": "A",
+    "period": "2026-11",
+    "request": "R1",
+    "attempt_id": "A1",
+    "currency": "CNY",
+    "amount": "0.99",
+    "kind": "usage",
+    "confirmed": true
+  }
+]

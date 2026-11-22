@@ -1,0 +1,62 @@
+[
+  {
+    "id": "B1",
+    "team": "care",
+    "batch": "weekly-report",
+    "units": 300,
+    "required_capability": "summarize",
+    "deferrable": true,
+    "period": "2026-11",
+    "expires": "2026-12-01T00:00:00Z"
+  },
+  {
+    "id": "B2",
+    "team": "ops",
+    "batch": "compliance",
+    "units": 500,
+    "required_capability": "reasoning",
+    "deferrable": false,
+    "period": "2026-11",
+    "expires": "2026-12-01T00:00:00Z"
+  },
+  {
+    "id": "B3",
+    "team": "care",
+    "batch": "support",
+    "units": 900,
+    "required_capability": "summarize",
+    "deferrable": false,
+    "period": "2026-11",
+    "expires": "2026-12-01T00:00:00Z"
+  },
+  {
+    "id": "B4",
+    "team": "care",
+    "batch": "followup",
+    "units": 100,
+    "required_capability": "summarize",
+    "deferrable": true,
+    "period": "2026-11",
+    "expires": "2026-12-01T00:00:00Z"
+  },
+  {
+    "id": "B5",
+    "team": "care",
+    "batch": "mandatory-audit",
+    "units": 1000,
+    "required_capability": "reasoning",
+    "deferrable": false,
+    "period": "2026-11",
+    "expires": "2026-12-01T00:00:00Z"
+  },
+  {
+    "id": "B6",
+    "team": "care",
+    "batch": "deferred-batch",
+    "units": 200,
+    "required_capability": "summarize",
+    "deferrable": true,
+    "period": "2026-11",
+    "expires": "2026-12-01T00:00:00Z"
+  }
+]

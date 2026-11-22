@@ -1,0 +1,26 @@
+[
+  {
+    "team": "care",
+    "period": "2026-11",
+    "budget_fen": 1500,
+    "carry": false
+  },
+  {
+    "team": "ops",
+    "period": "2026-11",
+    "budget_fen": 7000,
+    "carry": false
+  },
+  {
+    "team": "care",
+    "period": "2026-12",
+    "budget_fen": 5000,
+    "carry": false
+  },
+  {
+    "team": "ops",
+    "period": "2026-12",
+    "budget_fen": 8000,
+    "carry": false
+  }
+]
